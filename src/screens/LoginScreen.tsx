@@ -1,11 +1,13 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout/Layout';
 import LoginForm from '../components/LoginForm';
 
-const LoginScreen = () =>(
-	<Layout>
-		<LoginForm/>
-	</Layout>
-);
+const LoginScreen = () =>{
+	return (
+		<Layout>
+			<LoginForm/>
+		</Layout>
+	)
+};
 
 export default LoginScreen;

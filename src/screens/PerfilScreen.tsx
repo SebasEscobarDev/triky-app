@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const RoomsScreen = () => {
+const PerfilScreen = () => {
   return (
     <View>
-      <Text>Rooms Screen !</Text>
+      <Text>Perfil Screen!</Text>
     </View>
   );
 };
 
-export default RoomsScreen;
+export default PerfilScreen;

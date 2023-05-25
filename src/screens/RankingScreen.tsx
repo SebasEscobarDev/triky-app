@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-const MyPerfilScreen = () => {
+const RankingScreen = () => {
   return (
     <View>
-      <Text>Perfil Screen!</Text>
+      <Text>Ranking Screen!</Text>
     </View>
   );
 };
 
-export default MyPerfilScreen;
+export default RankingScreen;

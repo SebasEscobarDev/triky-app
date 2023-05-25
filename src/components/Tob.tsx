@@ -31,7 +31,7 @@ function Tob({ accion, casilla, styless, jugador, limpiar }: Props) {
       marcarCasilla(jugador);
     }}>
       <View style={styless}>
-        <Text style={styles.casillaIndex}>{casilla}</Text>
+        {/* <Text style={styles.casillaIndex}>{casilla}</Text> */}
         <Text style={[styles.markCharacter, styles.showCharacter]}>{text}</Text>
       </View>
     </TouchableOpacity>

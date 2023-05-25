@@ -1,13 +1,17 @@
 import LoginScreen from './LoginScreen';
 import CreateAccountScreen from './CreateAccountScreen';
-import MyPerfilScreen from './MyPerfilScreen';
-import RoomsScreen from './RoomsScreen';
+import PerfilScreen from './PerfilScreen';
+import HomeScreen from './HomeScreen';
 import TrikyScreen from './TrikyScreen';
+import RankingScreen from './RankingScreen';
+import UserConnectedScreen from './UserConnectedScreen';
 
 export {
   LoginScreen,
   CreateAccountScreen,
-  MyPerfilScreen,
-  RoomsScreen,
+  PerfilScreen,
+  HomeScreen,
   TrikyScreen,
+  UserConnectedScreen,
+  RankingScreen,
 };

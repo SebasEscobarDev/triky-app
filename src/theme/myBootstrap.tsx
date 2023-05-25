@@ -19,6 +19,16 @@ const myBootstrap = StyleSheet.create({
 	row: {
 		width: WINDOW_WIDTH,
 		flexDirection: 'row',
+		alignSelf: 'center',
+	},
+	rowCenter: {
+		width: WINDOW_WIDTH,
+		flexDirection: 'row',
+		alignSelf: 'center',
+		display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+		height: WINDOW_HEIGHT,
 	},
 	col_1: {
 		width: COL_1,
